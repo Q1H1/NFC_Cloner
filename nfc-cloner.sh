@@ -61,7 +61,7 @@ if [ ! -d ${SAVE_CARD_DUMP_FILES_HERE} ]; then
 fi
 #
 PROGRAM="$(/usr/bin/basename ${0})"
-MFOC="/usr/local/bin/mfoc"           # apt-get install mfoc
+MFOC="/usr/bin/mfoc"           # apt-get install mfoc
 ANTICOL="/usr/bin/nfc-anticol"       # apt-get install libnfc-examples
 NFC_POLL="/usr/bin/nfc-poll"         # apt-get install libnfc-examples
 NFC_SETUID="/usr/bin/nfc-mfsetuid"   # apt-get install libnfc-examples
